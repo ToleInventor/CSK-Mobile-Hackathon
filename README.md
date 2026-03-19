@@ -1,138 +1,50 @@
-# CSK Hackathon — Mobile Development Track
+# Welcome to your Expo app 👋
 
-![CSK Mobile Hackathon Banner](./ReactNative.jpeg)
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Overview
+## Get started
 
-The **CSK Mobile Hackathon** is a hands-on learning and building challenge focused on mobile development using **React Native** and **Expo**.  
-From **March 16 to March 27**, participants will go through a structured series of daily mini-challenges designed to help beginners learn the fundamentals of building mobile applications.
+1. Install dependencies
 
-Each day follows a simple structure:
+   ```bash
+   npm install
+   ```
 
-**Learn → Build → Submit**
+2. Start the app
 
-Participants will learn a concept, apply it in a small practical challenge, and submit their solution. By the end of the hackathon, everyone should have the skills needed to build and present a complete mobile application.
+   ```bash
+   npx expo start
+   ```
 
-This track is designed to be **beginner friendly**, but also valuable for participants who already have some programming experience.
+In the output, you'll find options to open the app in a
 
----
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## Technologies
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-The mobile track will primarily use:
+## Get a fresh project
 
-* React Native
-* Expo
-* GitHub
-* React Navigation
-* AsyncStorage
+When you're ready, run:
 
-Participants only need basic knowledge of **JavaScript or React** to get started.
+```bash
+npm run reset-project
+```
 
----
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Hackathon Structure
+## Learn more
 
-The hackathon runs for **10 learning days**, followed by final project submissions.
+To learn more about developing your project with Expo, look at the following resources:
 
-| Day    | Topic                          |
-| ------ | ------------------------------ |
-| Day 1  | Setup & First React Native App |
-| Day 2  | Layout and Styling             |
-| Day 3  | Reusable Components            |
-| Day 4  | Lists with FlatList            |
-| Day 5  | Navigation                     |
-| Day 6  | Forms and Inputs               |
-| Day 7  | Fetching Data from APIs        |
-| Day 8  | Auth with Supabase             |
-| Day 9  | Localstorage                   |
-| Day 10 | Final Project                  |
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
---
+## Join the community
 
-## Participation Workflow
+Join our community of developers creating universal apps.
 
-1. Fork this repository.
-2. Clone your fork locally.
-3. Complete the daily challenge.
-4. Push your solution to your fork.
-5. Submit a **Pull Request** to this repository or use the **Challenge Complete issue template**.
-
-Example pull request title:
-
-Day 4 Challenge — Lists with FlatList Implementation
-All submissions will be reviewed to track progress and participation.
-
----
-
-## Submission Guidelines
-
-To keep the process organized:
-
-* Submit **one pull request per challenge** or an issue using the `Challenge Complete` template.
-* Follow the folder structure provided in the repository.
-* Ensure the project runs without errors.
-* Include a short description of your solution in the PR or issue.
-
-Optional but encouraged:
-
-* Include a screenshot or screen recording of your app.
-
----
-
-## Final Project
-
-At the end of the challenge, participants will build a **small mobile application** using the concepts learned during the hackathon.
-
-The final project should include:
-
-* Multiple screens
-* Navigation
-* Reusable components
-* A list rendered with FlatList
-* Either API data or local storage
-* Clean and readable styling
-
-Example project ideas:
-
-* Campus events app
-* Notes application
-* Todo manager
-* Contacts list
-* Habit tracker
-
-Participants will present their final projects during the closing session.
-
----
-
-## Support
-
-If you encounter any issues:
-
-* Ask questions in the hackathon community channel
-* Check the challenge documentation for guidance
-* Collaborate with other participants when possible
-
-Mentors will be available throughout the hackathon to help participants progress.
-
----
-
-## Goal
-
-The goal of this track is not only to finish challenges, but to **build confidence in mobile development** and understand how real mobile applications are structured.
-
-By the end of the hackathon, participants should be able to:
-
-* Set up a React Native project
-* Build user interfaces
-* Create reusable components
-* Work with navigation and lists
-* Fetch and display data
-* Build a small but complete mobile application
-
----
-
-## License
-
-This repository is provided for educational purposes as part of the CSK Major Hackathon.  
-Lead: <samuel202mwangi@gmail.com>
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
