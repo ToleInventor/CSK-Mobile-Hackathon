@@ -27,10 +27,8 @@ export default function App() {
 
   return (
     <View style={!isNight ? styles.container : styles.containerDark}>
-      {/* Status bar color */}
       <StatusBar barStyle={!isNight ? 'dark-content' : 'light-content'} />
 
-      {/* Header with mode label + toggle */}
       <View style={styles.header}>
         <Text style={isNight ? styles.modeTextDark : styles.modeTextLight}>
           {isNight ? 'Dark Mode' : 'Light Mode'}
@@ -45,7 +43,6 @@ export default function App() {
         </TouchableOpacity>
       </View>
 
-      {/* FlatList of contacts */}
       <FlatList
         data={contacts}
         keyExtractor={(item) => item.id}
@@ -67,7 +64,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f9fbff',
-    paddingTop: 25, // top padding instead of SafeAreaView
+    paddingTop: 25,
   },
   containerDark: {
     flex: 1,
