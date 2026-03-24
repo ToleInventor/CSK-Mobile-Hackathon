@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/components/Navigation.jsx", "app/components/Toggle.jsx", "app/screens/ContactScreen.jsx", "app/screens/HomeScreen.jsx", "app/screens/ProfileScreen.jsx", "app/static/styles.jsx", "app/_layout.jsx", "app/index.jsx"  ]
+}
